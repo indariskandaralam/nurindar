@@ -1,0 +1,13 @@
+bilangan = int ( input ( "masukan bilangan yang ingin dikonversi : \t " ))
+
+konversi1 = bin ( bilangan )[ 2 :]
+
+konversi2 = hex ( bilangan )
+
+konversi3 = okt ( bilangan )
+
+print ( "Bilangan Biner \ t \t : " , konversi1 .zfill ( 8 ))
+
+print ( "Bilangan Heksadesimal \t : " , konversi2 )
+
+print ( "Bilangan Oktal \t \t : " , konversi3 )
